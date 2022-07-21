@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #DFF3E4 ;
+}
+body, html{
+    background: rgb(247, 236, 236);
+
+}
+header{
+    width: 100%;
+    height: 650px;
+    background-color: #321bc7;
+}
+.contener{
+    max-width: 1000px;
+    min-width: 300px; ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+nav{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between; 
+    
+}
+.logo{
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    border: solid #DFF3E4 5px;
+    color: blue;
+    background-color: #DFF3E4;
+    padding: 10px;
+    border-radius: 40px;
+    transition: backgroud, color 1.5s;
+    
+}
+.contener .perfil{
+    max-width: 1000px;
+    background-color: #C3D2D5;
+    height: 450px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 10px;
+    padding: 10px;
+}
+.perfil img{
+    height: 70%;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    border-radius: 40px;
+}
+.perfil .texto h1,h2{
+    color:black;
+    text-align: left;
+}
+.perfil .texto{
+    max-width: 500px;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 40px;
+    transform: translate(-20px);
+    transition: transform 0.8s;
+}
+
+footer{
+    height: 100%;
+    background-color: black;
+}
+.contenerR{
+    max-width: 1000px;
+    min-width: 500px; ;
+    margin: 0 auto;
+    
+}
+.rodape ul{
+     display: flex;
+}
+.rodape ul li{
+    margin: 50px;
+    font-size: 20px;
+}
+.rodape ul li a{
+    text-decoration: none;
+}
+.rodape ul li a:hover{
+    border: solid 2px red;
+    padding: 4px;
+    border-radius: 3px;
+}
+.rodape{
+    position: relative;
+    left: 10%;
+}
